@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    Cloud_Build
+                    PRED!
                 </div>
             </div>
         </div>
