@@ -23,6 +23,7 @@ handlers:
 
 env_variables:
   ## Put production environment variables here.
+  APP_DEBUG: True
   APP_KEY: base64:pDU/fCXMPW5/L9kglf9gC6JJmSUkzl29DdSEgTEOPBM=
   APP_STORAGE: /tmp
   VIEW_COMPILED_PATH: /tmp
