@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                   Final Test!
+                   Final Test from Git Repo!
                 </div>
             </div>
         </div>
