@@ -1,0 +1,36 @@
+runtime: php72
+
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /bootstrap
+  static_dir: bootstrap
+
+- url: /css
+  static_dir: public/css
+
+- url: /fonts
+  static_dir: public/fonts
+
+- url: /img
+  static_dir: public/img
+
+- url: /js
+  static_dir: public/js
+
+env_variables:
+  ## Put production environment variables here.
+  LOG_CHANNEL: stackdriver
+  APP_KEY: base64:pDU/fCXMPW5/L9kglf9gC6JJmSUkzl29DdSEgTEOPBM=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  ## Set these environment variables according to your CloudSQL configuration.
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: qwerty
+  DB_SOCKET: "/cloudsql/fair-portal-246408:us-central1:abc"
