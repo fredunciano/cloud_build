@@ -13,7 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    PRED!
+
+                   Final Test!
                 </div>
             </div>
         </div>

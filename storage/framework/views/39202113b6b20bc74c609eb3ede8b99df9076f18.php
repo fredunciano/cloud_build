@@ -13,7 +13,7 @@
                         </div>
                     <?php endif; ?>
 
-                    Hello Freddie!!
+                   freddie!!
                 </div>
             </div>
         </div>
